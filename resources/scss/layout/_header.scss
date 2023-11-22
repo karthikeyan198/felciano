@@ -1,0 +1,39 @@
+.header-section {
+    background-color: #000;
+    opacity: 0.85;
+}
+.navbar {
+    .navbar-brand {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 900;
+    }
+    .navbar-toggler {
+        order: none;
+        color: rgba(255, 255, 255, 0.7) !important;
+        cursor: pointer;
+        padding-right: 0;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        border: none;
+        &:focus {
+            border: none;
+            box-shadow: unset !important;
+        }
+        .menu-button{
+            position: relative;
+            top: 2px;
+        }
+    }
+    .navbar-nav {
+        li {
+            a {
+                color: rgba(255, 255, 255, 0.8) !important;
+            }
+            a.active {
+                color: #c8a97e !important;
+            }
+        }
+    }
+}
