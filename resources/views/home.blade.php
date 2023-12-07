@@ -89,6 +89,9 @@
             </div>
         </div>
     </section>
+    <section class="about">
+        @include('partials.about')
+    </section>
 @endsection
 @push('scripts')
     @vite(['resources/js/main/home.js'])

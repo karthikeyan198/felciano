@@ -4,7 +4,7 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #fff;
+    // color: #fff;
 }
 
 :root {
@@ -348,5 +348,43 @@
             font-variation-settings: "wght" 200;
             font-size: 65px;
         }
+    }
+}
+.about-container{
+    .hours{
+        font-family: 'fantasy';
+    }
+    .contact-number{
+        color: #c8a97e;
+    }
+    .about-desc{
+        line-height: 35px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #333333b4;
+    }
+    .heading-section{
+        position: relative;
+        .sub-heading{
+            position: absolute;
+            top: 10px;
+            left: 0;
+            right: 0;
+            font-weight: normal;
+            font-size: 100px;
+            display: block;
+            margin-bottom: 0;
+            color: #c8a97e;
+            line-height: 1;
+            font-family: "Great Vibes", cursive;
+            margin-top: 0;
+            z-index: -1;
+        }
+        h2 {
+            font-weight: 600 !important;
+            font-size: 50px;
+            font-weight: 900;
+            line-height: 1.2;
+          }
     }
 }
